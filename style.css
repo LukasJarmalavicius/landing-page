@@ -21,6 +21,8 @@ button {
     border-radius: 10px;
     font-weight: bolder;
     border-style: none;
+    background-color: #3882f6;
+    color: white;
     
 }
 
@@ -49,8 +51,8 @@ button {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
-    align-items: center;
-    padding: 90px
+    padding: 90px;
+    text-align: left;
 }
 
 .herotext {
@@ -77,16 +79,8 @@ button {
     width: 600px;
 }
 
-.signupbutton1 {
-    background-color: #3882f6;
-    color: white;
-
-    
-}
-
 .information {
-
-    padding: 20px;
+    padding: 10px 0 150px 0;
 
 
 }
@@ -117,24 +111,58 @@ button {
 }
 
 .quote {
-    background-color: #e5e7eb;
     display: flex;
+    background-color: #e5e7eb;
     justify-content: center;
+    padding: 50px;
+    
+   
 }
 
 .quotetext {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
-    width: 600px;
+    color: #1F2937;opacity: 0.9;
+    max-width: 800px;
 }
 
 .quotename {
+
     padding: 30px;
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
-   
+    text-align: right;
+}
+
+.signupheader {
+    padding: 100px 200px;
+}
+
+.signupbox {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.signtext {
+    color: #e5e7eb;
+    text-align: left;
+}
+
+.signtextbig {
+    font-size: 30px;
+}
+
+.signtextsmall {
+    opacity: 0.9;
+}
+
+.signupbuttonhead {
+    padding: 0px 60px;
+    border: 2px solid #e5e7eb;
 }
 
 .footer {
@@ -142,5 +170,8 @@ button {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    color: #f9faf8;
+    font-size: 14px;
 }
 
