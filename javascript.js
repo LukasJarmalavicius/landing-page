@@ -55,8 +55,6 @@ if (SpecialDict[namechosen2]) {
   }
 }
 
-
-
 response = replace(basechosen, namechosen, namechosen2, greetchosen, randchosen);
 response2 = replace(replychosen, namechosen, namechosen2, greetchosen, randchosen);
 responseloop = replace(replyloopchosen, namechosen, namechosen2, greetchosen, randchosen);
